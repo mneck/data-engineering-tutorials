@@ -1,0 +1,106 @@
+[
+  {
+    "event_id": "evt_001",
+    "user_id": "alice",
+    "event_type": "page_view",
+    "page": "/products/laptop",
+    "timestamp": "2025-01-15T10:23:15Z",
+    "session_id": "sess_12345",
+    "device": "desktop",
+    "country": "USA"
+  },
+  {
+    "event_id": "evt_002",
+    "user_id": "alice",
+    "event_type": "add_to_cart",
+    "product": "Laptop",
+    "quantity": 1,
+    "timestamp": "2025-01-15T10:25:42Z",
+    "session_id": "sess_12345",
+    "device": "desktop",
+    "country": "USA"
+  },
+  {
+    "event_id": "evt_003",
+    "user_id": "alice",
+    "event_type": "purchase",
+    "product": "Laptop",
+    "amount": 1200,
+    "timestamp": "2025-01-15T10:28:09Z",
+    "session_id": "sess_12345",
+    "device": "desktop",
+    "country": "USA"
+  },
+  {
+    "event_id": "evt_004",
+    "user_id": "bob",
+    "event_type": "page_view",
+    "page": "/products/mouse",
+    "timestamp": "2025-01-16T14:12:33Z",
+    "session_id": "sess_67890",
+    "device": "mobile",
+    "country": "Canada"
+  },
+  {
+    "event_id": "evt_005",
+    "user_id": "bob",
+    "event_type": "add_to_cart",
+    "product": "Mouse",
+    "quantity": 1,
+    "timestamp": "2025-01-16T14:13:45Z",
+    "session_id": "sess_67890",
+    "device": "mobile",
+    "country": "Canada"
+  },
+  {
+    "event_id": "evt_006",
+    "user_id": "charlie",
+    "event_type": "page_view",
+    "page": "/products/keyboard",
+    "timestamp": "2025-01-16T16:45:21Z",
+    "session_id": "sess_11223",
+    "device": "tablet",
+    "country": "UK"
+  },
+  {
+    "event_id": "evt_007",
+    "user_id": "charlie",
+    "event_type": "purchase",
+    "product": "Keyboard",
+    "amount": 75,
+    "timestamp": "2025-01-16T16:48:55Z",
+    "session_id": "sess_11223",
+    "device": "tablet",
+    "country": "UK"
+  },
+  {
+    "event_id": "evt_008",
+    "user_id": "david",
+    "event_type": "page_view",
+    "page": "/",
+    "timestamp": "2025-01-18T09:15:03Z",
+    "session_id": "sess_44556",
+    "device": "desktop",
+    "country": "Germany"
+  },
+  {
+    "event_id": "evt_009",
+    "user_id": "david",
+    "event_type": "search",
+    "query": "laptop",
+    "timestamp": "2025-01-18T09:16:22Z",
+    "session_id": "sess_44556",
+    "device": "desktop",
+    "country": "Germany"
+  },
+  {
+    "event_id": "evt_010",
+    "user_id": "david",
+    "event_type": "page_view",
+    "page": "/products/laptop",
+    "timestamp": "2025-01-18T09:17:08Z",
+    "session_id": "sess_44556",
+    "device": "desktop",
+    "country": "Germany"
+  }
+]

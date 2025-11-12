@@ -1,0 +1,6 @@
+product_id,product_name,category,price,stock_quantity
+1,Laptop,Electronics,1200,45
+2,Mouse,Electronics,25,200
+3,Keyboard,Electronics,75,150
+4,Monitor,Electronics,300,80
+5,USB Cable,Accessories,15,500

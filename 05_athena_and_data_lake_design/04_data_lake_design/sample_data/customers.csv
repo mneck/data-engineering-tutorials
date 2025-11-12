@@ -1,0 +1,6 @@
+customer,email,country,signup_date
+Alice,alice@example.com,USA,2024-06-15
+Bob,bob@example.com,Canada,2024-08-22
+Charlie,charlie@example.com,UK,2024-09-10
+David,david@example.com,Germany,2024-11-05
+Eve,eve@example.com,France,2024-12-18

@@ -1,0 +1,15 @@
+2025-01-15 10:23:15 INFO 192.168.1.101 GET /products/laptop 200 1.23s user=alice
+2025-01-15 10:25:42 INFO 192.168.1.101 POST /cart/add 200 0.45s user=alice
+2025-01-15 10:28:09 INFO 192.168.1.101 POST /checkout 200 2.34s user=alice
+2025-01-16 14:12:33 INFO 192.168.1.102 GET /products/mouse 200 0.89s user=bob
+2025-01-16 14:13:45 INFO 192.168.1.102 POST /cart/add 200 0.67s user=bob
+2025-01-16 16:45:21 INFO 192.168.1.103 GET /products/keyboard 200 1.01s user=charlie
+2025-01-16 16:48:55 INFO 192.168.1.103 POST /checkout 200 1.89s user=charlie
+2025-01-17 11:22:10 ERROR 192.168.1.104 GET /products/laptop 500 0.05s user=alice error="database timeout"
+2025-01-17 11:23:15 INFO 192.168.1.104 GET /products/laptop 200 1.12s user=alice
+2025-01-18 09:15:03 INFO 192.168.1.105 GET / 200 0.45s user=david
+2025-01-18 09:16:22 INFO 192.168.1.105 GET /search?q=laptop 200 0.78s user=david
+2025-01-18 09:17:08 INFO 192.168.1.105 GET /products/laptop 200 1.05s user=david
+2025-01-19 13:45:22 WARNING 192.168.1.102 POST /cart/add 429 0.12s user=bob error="rate limit exceeded"
+2025-01-19 13:46:30 INFO 192.168.1.102 POST /cart/add 200 0.55s user=bob
+2025-01-20 08:30:15 INFO 192.168.1.106 GET /products/mouse 200 0.92s user=eve
